@@ -118,6 +118,8 @@ child selector (>)
 adjacent sibling selector (+)
 general sibling selector (~)
 
+=======================================================
+		GIT AND GITHUB
 git bash
 
 mkdir gitdemo
@@ -135,4 +137,17 @@ git commit -m " My First Commit"
 
 GIT_COMMITTER_EMAIL=bharathi.mandru@lntinfotech.com
 
-git checkout ba7c4fb 
+to go back to earlier commited file
+-->git log
+
+example we get many commits like below:
+commit 8d6622d46ce765a24f4d8a827cf4940a0f86b540
+commit b11459361da19ba33f290633cd64ca5699786644
+
+ copy the number beside commit
+-->git checkout (number)
+Example :
+git checkout 8d6622d46ce765a24f4d8a827cf4940a0f86b540
+
+togo back the current status
+--->git checkout master
