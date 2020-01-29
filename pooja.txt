@@ -1,0 +1,138 @@
+JDBC(Java Database Connectivity)
+JDBC is a Java API to connect and execute the query with the database. 
+It is a part of JavaSE (Java Standard Edition). JDBC API uses JDBC drivers to connect with the database.
+
+There are four types of JDBC drivers:
+
+1)JDBC-ODBC Bridge Driver
+2)Native Driver
+3)Network Protocol Driver
+4)Thin Driver 
+
+1)JDBC-ODBC Bridge Driver:
+	JDBC->java,ODBC->C program.
+
+to connect with the web server for angular js
+
+starting the server
+ng serve -o
+
+
+creating new project (for less time)
+ng new app2 --minimal --skip install
+then copy from 'app1'->'node_modules' folder into 'app2'
+
+creating component using command
+ng generate component list-product
+[or]ng g c login
+
+
+<br><span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+
+fetchProducts(id:number):Product[]{
+      this.products.forEach(Product p: this.products)
+    return[];
+  }
+
+/*this.products=[
+        new Product(1,  "lenovo" ,  5000,  "mobile1.jpg"),
+        new Product(2,  "samsung" , 6000,  "mobile2.jpg"),
+        new Product(3,  "vivo" ,7000,  "mobile3.jpg"),
+        new Product(4,  "one plus" , 8000,  "mobile4.jpg"),
+        new Product(5, "Nokia 600" , 5000, "mobile5.jpg")
+    ];*/
+    
+       /* this.products =[
+        {id:1, name: "lenovo" , price: 5000, image: "mobile1.jpg"},
+        {id:2, name: "samsung" , price: 6000, image: "mobile2.jpg"},
+        {id:3, name: "vivo" , price: 7000, image: "mobile3.jpg"},
+        {id:4, name: "one plus" , price: 8000, image: "mobile4.jpg"},
+        {id:5, name: "Nokia 600" , price: 5000, image: "mobile5.jpg"}
+                ];*/
+
+<div class="person">Enter your name:<input type="text" [ngModel]=name name="name"><br>
+                    Enter your age:<input type="number" [ngModel]=age name="age"><br>
+                    <button type="submit">Submit</button>
+</div>          
+
+
+
+TODO:
+1)hTML5 SESSIONSTORAGE API
+2)ANGULAR FORMS(UI + BINDING + VALIDATION)
+3)INTEGRATING BOOTSTRAP CSS LIBRARY WITH ANGULAR COMPONENTS
+4)JSON GENERATION/PARSING  
+
+ANGULAR GUIDE->WEBSITE
+
+1xx -->Informational
+2xx -->Sucess
+3xx -->Redirection
+4xx -->Client error
+5xx -->Server error
+
+REST API
+It is a client and server model so there must be client and server in the architecture.
+It means for implementing REST, architecture should have a client and server. In other words, a standalone desktop application can not be mould into REST. In REST API, we always do have a client and server.
+
+It is a stateless client and server model :
+It signifies server must not store any application data that is require to serve subsequent requests from client.
+------------------------------------------------------------------------------------
+Uniform Interface — Important
+Uniform interface means, Every REST architecture should have these elements
+Resource — There must be resources with their unique resource identifier i.e. unique url in REST APIs.
+------------
+Representations — Representation is the value/response of the Resource at a point in time based on the media-type. Resources can be manipulated only through their representations.
+Self Descriptive Messages — When server returns resource representation to the client then server should tell the client how to process the representation. Basically in terms of HTTP, content-type header should tell whether it is JSON or XML or some other format so that client can parse this representation.
+Hypermedia as the engine of application state —It means, once a client have initial response, then response should contains hyper links which allows a client to move to the next state of the application. Consider an example of web-browser accessing a url, once browser get the response then it automatically requests all resources needed to render the page completely.
+REST API
+Rather than being abstract, now lets understand the constraints REST APIs should adhere to.
+---------------------------------------------------------
+Idempotent REST APIs
+In the context of REST APIs, when making multiple identical requests has the same effect as making a single request – then that REST API is called idempotent.
+If you follow REST principles in designing API, you will have automatically idempotent REST APIs for GET, PUT, DELETE, HEAD, OPTIONS and TRACE HTTP methods. 
+Only POST APIs will not be idempotent.
+
+POST is NOT idempotent.
+GET, PUT, DELETE, HEAD, OPTIONS and TRACE are idempotent.
+--------------------------------------------------------
+Statelessness
+As per the REST (REpresentational “State” Transfer) architecture, the server does not store any state about the client session on the server side.
+This restriction is called Statelessness. Each request from the client to server must contain all of the information necessary to understand the request, 
+and cannot take advantage of any stored context on the server. Session state is therefore kept entirely on the client. 
+client is responsible for storing and handling all application state related information on client side.
+-----------------------------------------------------
+REST – Content Negotiation
+Generally, resources can have multiple presentations, mostly because there may be multiple different clients expecting different representations.
+Asking for a suitable presentation by a client, is referred as content negotiation.
+
+--------------------------------
+There are four different combinators in CSS:
+
+descendant selector (space)
+child selector (>)
+adjacent sibling selector (+)
+general sibling selector (~)
+
+git bash
+
+mkdir gitdemo
+git add hello.txt
+
+
+git init
+git status
+git add filename.txt
+check git status every time we ned changes in file
+ git commit -m " My First Commit"
+ git config --global user.email"mandrubharathi914@gmail.com"
+ git config --global user.name "BharathiSiva"
+git commit -m " My First Commit"
+
+GIT_COMMITTER_EMAIL=bharathi.mandru@lntinfotech.com
+
+git checkout ba7c4fb 
